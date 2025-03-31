@@ -65,7 +65,6 @@ h1{
     color: white;
     background-color:rgb(91, 55, 94);
     border-radius: 30px;
-    position: static;
 }
 
 #bienvenida{
@@ -133,7 +132,6 @@ h1{
 }
 
 .cate{
-    display: flex;
     display: inline-block;
     justify-content: center;
 
@@ -174,7 +172,6 @@ h1{
     border: 1px solid black;
     margin: 5px;
 
-    display: flex;
     display: inline-block;
     text-align: center;
 
@@ -239,10 +236,6 @@ h1{
     text-align: center;
     justify-content: center;
 
-
-    display: flex;
-    flex-wrap: wrap;
-
     width: 20%;
 }
 
@@ -277,7 +270,7 @@ h1{
     align-items: center;
 
     width: 350px;
-    height: 310px;
+    height: 330px;
 }
 
 .producto1>a{
