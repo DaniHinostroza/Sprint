@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    min-height: 20px;
+}
+
+main{
+    min-height: 70px;
+}
+
+footer{
+    min-height: 10px;
+}
+
+#caja{
+    background-color: rgb(158, 107, 178);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#caja>img{
+    border-radius: 40px;
+    width: 100px;
+    left: 100px;
+    border: 4px solid rgb(91, 55, 94);
+}
+
+h1{
+    text-align: center;
+    unicode-bidi: isolate;
+    padding: 10px;
+}
+
+.nav{
+    background-color: rgb(220, 156, 199);
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+.nav ul{
+    color: black;
+    padding: 10px;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    color: rgb(11, 11, 11);
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav a:hover{
+    color: white;
+    background-color:rgb(91, 55, 94);
+    border-radius: 30px;
+    position: static;
+}
+
+#bienvenida{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+.productos{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.producto{
+    background-color: rgb(245, 221, 249);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+    justify-content: space-between;
+
+    width: 450px;
+    height: 310px;
+}
+
+.producto>a{
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+    color: rgb(234, 234, 234);
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.producto>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.producto>p{
+    margin: 10px;
+}
+
+.categoria{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.categoria>img{
+    width: 300px;
+    height: 300px;
+}
+
+.cate{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+
+    width: 350px;
+    height: 300px;
+}
+
+#fin{
+    background-color: rgb(158, 107, 178);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.nosotros{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.nos{
+    text-align: start;
+}
+
+.trabajadores{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+
+.trabajador{
+    background-color: rgb(245, 221, 249);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+
+    display: flex;
+    display: inline-block;
+    text-align: center;
+
+    width: 450px;
+    height: 310px;
+}
+
+.trabajador>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+
+.trabajador>p{
+    margin: 10px;
+    padding: 5px;
+}
+
+.valores{
+    background-color: rgb(245, 221, 249);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.valores>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.valor>dd{
+    margin: 10px;
+    padding: 5px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contenido{
+    width: 80%;
+}
+
+.categoria1{
+    background-color: rgb(199, 169, 204);
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+
+
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 20%;
+}
+
+.productos1 h2{
+    text-align: left;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.productos1{
+    background-color: rgb(199, 169, 204);
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+} 
+
+.producto1{
+    background-color: rgb(245, 221, 249);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 350px;
+    height: 310px;
+}
+
+.producto1>a{
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+    color: rgb(234, 234, 234);
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.producto1>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.producto1>p{
+    margin: 10px;
+}
+
+.beneficio{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.bene{
+    margin-bottom: 10px;
+    background-color: rgb(245, 221, 249);
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.beneficio h2{
+    margin-bottom: 15px;
+}
+
+dl {
+    display: flex;
+}
+
+
+ul , ol{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.inicio{
+    background-color: rgb(91, 55, 94);
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+ul ul {
+    margin-left: 20px;
+    font-weight: normal;
+}
