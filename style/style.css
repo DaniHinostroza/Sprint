@@ -4,12 +4,19 @@
     box-sizing: content-box;
 }
 
+head{
+    background-color: rgb(167, 137, 179);
+
+}
+
 header{
     min-height: 20px;
+    background-color: rgb(188, 160, 199);
 }
 
 main{
     min-height: 70px;
+    background-color: rgb(167, 137, 179);
 }
 
 footer{
@@ -94,8 +101,8 @@ h1{
     margin-left: 10px;
     justify-content: space-between;
 
-    width: 450px;
-    height: 310px;
+    width: 350px;
+    height: 330px;
 }
 
 .producto>a{
@@ -135,8 +142,9 @@ h1{
     display: inline-block;
     justify-content: center;
 
-    width: 350px;
+    width: 300px;
     height: 300px;
+    padding: 5px;
 }
 
 #fin{
@@ -175,8 +183,8 @@ h1{
     display: inline-block;
     text-align: center;
 
-    width: 450px;
-    height: 310px;
+    width: 300px;
+    height: 300px;
 }
 
 .trabajador>img{
@@ -233,10 +241,10 @@ h1{
     padding: 5px;
     border: 1px solid black;
     margin: 5px;
-    text-align: center;
     justify-content: center;
 
     width: 20%;
+    height: 100%;
 }
 
 .productos1 h2{
