@@ -101,8 +101,8 @@ h1{
     margin-left: 10px;
     justify-content: space-between;
 
-    width: 350px;
-    height: 330px;
+    width: 300px;
+    height: 340px;
 }
 
 .producto>a{
@@ -147,6 +147,13 @@ h1{
     padding: 5px;
 }
 
+
+
+
+
+
+
+
 #fin{
     background-color: rgb(158, 107, 178);
     padding: 10px;
@@ -184,7 +191,7 @@ h1{
     text-align: center;
 
     width: 300px;
-    height: 300px;
+    height: 270px;
 }
 
 .trabajador>img{
@@ -224,6 +231,12 @@ h1{
     margin: 10px;
     padding: 5px;
 }
+
+
+
+
+
+
 
 .contenedor{
     display: flex;
@@ -277,8 +290,8 @@ h1{
     justify-content: space-between;
     align-items: center;
 
-    width: 350px;
-    height: 330px;
+    width: 300px;
+    height: 350px;
 }
 
 .producto1>a{
@@ -321,6 +334,13 @@ h1{
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+ 
+
 dl {
     display: flex;
 }
@@ -344,7 +364,6 @@ table,th,td{
     text-align: center;
 }
 
-
 .inicio{
     background-color: rgb(91, 55, 94);
 }
@@ -362,3 +381,113 @@ ul ul {
     margin-left: 20px;
     font-weight: normal;
 }
+
+
+
+
+
+
+.cont{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: center;
+}
+
+.cont h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.con iframe {
+    width: 600px;
+    height: 800px;
+    border: 2px solid #d48cd4;
+    border-radius: 10px;
+}
+
+form{
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+
+    width: 600px;
+    height: 350px;
+
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+form button {
+    margin: 10px 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #a64ca6;
+    color: white;
+    border-radius: 6px;
+}
+
+form button:hover {
+    background-color: #912d91;
+}
+
+
+
+
+
+
+
+
+.colum{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+fieldset{
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+.inte{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+}
+
+.inte label{
+    width: 30%;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.primero{
+    text-align: center;
+    justify-content: center;
+}
+
