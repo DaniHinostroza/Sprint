@@ -387,6 +387,11 @@ ul ul {
 
 
 
+
+
+
+
+
 .cont{
     display: flex;
     text-align: center;
@@ -487,7 +492,8 @@ fieldset{
 }
 
 .primero{
-    text-align: center;
     justify-content: center;
+    text-align: center;
+    display: flex;
 }
 
