@@ -497,3 +497,11 @@ fieldset{
     display: flex;
 }
 
+
+.map{
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
